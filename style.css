@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(195, 215, 222);
+}
+
+#header__banner1{
+    background-color: rgb(105, 145, 171);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.leftbar{
+    margin:1% 12%;
+}
+
+.menubar{
+    display: flex;
+    margin:2% 30%;
+    color: white;
+    list-style-type: none;
+    font-size: 1.5em;
+    gap: 1rem;
+}
+.menubar:hover{
+    cursor: pointer;
+}
+.header__center{
+    margin-left:-109%;
+    margin-top: 3.2em;
+}
+.header__center img{
+    width: 75vw;
+    height: 60vh;  
+}
+.main__section_1 .main__section_3{
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    /* background-color: rgb(195, 215, 222); */
+    width: 100%;
+    height: 90vh;
+}
+.html{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(241, 169, 144);
+}
+.html > img{
+    padding: 5% 35%;    
+}
+.html > h4{
+    padding: 7% 40%;
+}
+.css{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(139, 233, 173);
+}
+.css > img{
+    padding: 5% 35%;    
+}
+.css > h4{
+    padding: 7% 45%;
+}
+ .seo{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(170, 220, 209);
+    display: inline-block;
+    position: relative;
+    /* left: 20px; */
+    z-index: 2;
+}
+.seo > img{
+    padding: 5% 35%;    
+}
+.seo > h4{
+    padding: 10% 45%;
+}
+.social{
+    width: 40%;
+    height: 55vh;
+    background-color: rgb(162, 178, 193);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+ .social > img{
+    padding: .5em 12em;     
+}
+.social > h4{
+    padding: 5% 16em;
+}
+.social > h3{
+    padding: 2% 3%
+}
+.social > p{
+    padding: 1%;
+    text-align: justify;
+}
+.tab{
+    width: 25%;
+    height: 30vh;
+    margin-top: -10%;
+    margin-left: 4%;   
+}
+.tab img{
+    width: 30vw;
+    height: 40vh; 
+}
+.info{
+    width: 40vw;
+    height: 30vh;
+    margin-top: 8%;
+    margin-left: -29%;
+    background-color:rgb(189, 185, 173)
+}
+.info > h4{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5em;
+}
+.info > p{
+    margin: 2% 1%;
+    text-align: justify;
+    font-size: 1em;
+    color:rgb(245, 245, 245);
+}
+
+.phone{
+    width: 30vw;
+    height: 15vh;
+    margin-top: 9%;
+    margin-left: 26%;    
+}
+
+.phone img{
+    width: 20vw;
+    height: 40vh; 
+    margin-top: -5%;
+    margin-left: -15%;
+}
+
+.phone-info{
+    width: 45vw;
+    height: 30vh;
+    margin-top: 3%;
+    margin-left: 60%;
+    background-color:rgb(241, 169, 144)
+}
+
+.phone-info > h4{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5em;
+}
+.phone-info > p{
+    margin: 2% 1%;
+    text-align: justify;
+    color:rgb(245, 245, 245);
+}
+.pc{
+    width: 25%;
+    height: 30vh;
+    margin-top: -12%;
+    margin-left: 4%;
+    
+}
+.pc img{
+    width: 30vw;
+    height: 40vh; 
+}
+
+#main__section_2{
+    display:flex;
+    width: 100%;
+    height: 50vh;
+    margin-top: 4%;
+    text-align: center;
+    background-color:rgb(170, 220, 209) ; 
+}
+#google-search{
+    width: 33%;
+    height: 35vh;
+    margin-top:.1%;
+    background-color:rgb(161, 177, 194) ;
+}
+#google-search h4{
+    margin-top: 4%;
+    font-size: 1.5em;
+    
+}
+#google-search p{
+    font-size: 1em;
+    text-align: justify;
+    margin: 3% 2%;
+    color:rgb(245, 245, 245); ;
+}
+#marketting{
+    width: 33%;
+    height: 35vh;
+    background-color:rgb(189, 185, 140) ;
+    margin-top: .1%;
+}
+#marketting h4{
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+#marketting p{
+    font-size: 1em;
+    text-align: justify;
+    margin: 3% 2%;
+    color:rgb(245, 245, 245); ;
+}
+#happy-customers{
+    width: 33%;
+    height: 35vh;   
+}
+
+#happy-customers h4{
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+#happy-customers p{
+    font-size: 1em;
+    text-align: justify;
+    margin: 3% 2%;
+    color:rgb(245, 245, 245); ;
+}
+.smiley{
+    width: 2vw;
+    height: 5vh;
+    margin-top: -5%;
+    margin-left: 45%;
+}
+
+.footer__start{
+    margin-top: 40%;
+    width: 100%;
+    font-size: 4em;
+    height: 50vh;
+    background-color:rgb(105, 145, 171);
+}
+
+.footer__start ion-icon{
+    animation-name: socialmedia;
+    animation-duration: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    margin-top: 15%;
+    margin-left: 12%;
+    justify-content: space-around;
+}
+
+@keyframes socialmedia{
+    0%{background-color: aqua;}
+    25%{background-color: yellow;}
+    50%{background-color: silver;}
+    75%{background-color: red;}
+    100%{background-color: peachpuff;}
+}
+.footer__start ion-icon:hover{
+    cursor: pointer;
+}
+
+.footer__end{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(85, 72, 89);
+}
+.footer__end >p{
+    color: aliceblue;
+    padding-top: 5px;
+}
+
+.tab-bar{
+    display: none;
+
+}
+@media only screen and (max-width:480px){
+
+    #header__banner1{
+        background-color: rgb(105, 145, 171);
+        width: 100%;
+        height: 58vh;
+    }
+
+    .leftbar img{
+        margin-left:-25%;
+        margin-top: 30%;
+    }
+    /* .tab-bar{
+        width: 20vw;
+        height: 20vh;
+    } */
+
+    .menubar{
+        display: none;
+    }
+     
+     .header__center{
+         margin-left:-30%;
+         margin-top: 4em;
+         height: 50vh;
+     }
+     .header__center img{
+         width: 85vw;
+         height: 50vh;  
+     }  
+     .html{
+        height: 20vh;
+        width: 100%;
+     }
+     .html h4{
+        font-size: 1.3em;
+        margin-top: -7%;
+        flex-direction: column;
+     }
+     .css{
+        height: 20vh;
+        width: 100%;
+     }
+     .css h4{
+        font-size: 1.3em;
+        margin-top: -7%;
+     }
+     .seo{
+        height: 20vh;
+        width: 100%;
+     }
+     .seo h4{
+        font-size: 1.3em;
+        margin-top: -9%;
+     }
+     .social{
+        height: 32vh;
+        width: 100%;
+     }
+     .social > img{
+        display: none;
+        padding: .3em 10em; 
+        margin-left: -9%;    
+    }
+    .social > h4{
+        display: none;
+        margin-left: -50%;
+        /* padding: 5% 12em; */
+        font-size: 1.3em;
+        margin-top: -7%;
+     }
+     .social>h3{
+        text-align: center;
+        font-size: 1.5em;
+     }
+     .social>p{
+        font-size: 1.2em;
+     }
+     .info{
+        width: 100%;
+        height: 38vh;
+        margin-top: -1%;
+    }
+    .info>h4{
+        font-size: 1.5em;
+    }
+    .info > p{
+        font-size: 1.2em;
+    }
+    .phone img{
+        display: none;
+    }
+    .pc img{
+        /* display: none; */
+        margin: 50% -200%; 
+        width: 80vw;
+        height: 50vh;
+    }
+    .phone-info{
+        display: none;
+        width: 100%;
+        height: 50vh;
+    }
+    .footer__start{
+        display: none;
+    }
+    .footer__end{
+        display: none;
+    }
+    #main__section_2{
+       width: 100%;
+    }
+    #google-search{
+        width: 100%;
+    }
+    .main__section_1 {
+        flex-direction: column;
+    }
+    }
+
+@media only screen and (min-width: 480)and(max-width: 990px) {
+    .main__section_1{
+        /* width: 80vh;
+        height: 100vh; */
+        height: min(43vh,100vh);
+    }
+
+    .leftbar img{
+        width: 8vw;
+        margin-left:-80%;
+        margin-top: 2%;
+    }
+
+    .menubar{
+        margin:2% -12%;
+        color: white;
+        list-style-type: none; 
+        font-size: 2.1em;
+        gap: 1rem;
+    }
+     
+     .header__center{
+         margin-left:-78%;
+         margin-top: 6em;
+         width: 85vw;
+         height: 59vh; 
+     }
+     .header__center img{
+         width: 85vw;
+         height: 59vh;  
+     }  
+     .html{
+        height: 20vh;
+        width: 21%;
+     }
+     .html img{
+        width: 12vw;
+        margin-left: -5%;
+     }
+     .html h4{
+        font-size: 1.3em;
+        margin-top: 20%;
+     }
+     .css{
+        height: 20vh;
+        width: 21%;
+     }
+     .css img{
+        width: 12vw;
+        margin-left: -5%;
+     }
+     .css h4{
+        font-size: 1.3em;
+        margin-top: 25%;
+     }
+     .seo{
+        height: 20vh;
+        width: 23%;
+     }
+     .seo img{
+        width: 12vw;
+        margin: 1% -5%;
+     }
+     .seo h4{
+        font-size: 1.3em;
+        margin-top: 25%;
+     }
+     .social{
+        height: 57vh;
+        width: 35%;
+     }
+     .social > img{
+        padding: .3em 10em; 
+        width: 12vw; 
+        margin-left: -5%;   
+    }
+    .social > h4{
+        padding: 5% 8em;
+        font-size: 1.5em;
+    }
+    .social > h3{
+        font-size: 1.5em;
+    }
+    .social > p{
+        font-size: 1.4em;
+    }
+     .tab{
+        margin-top: -35%;
+        margin-left: 4%;   
+    }
+    .tab img{
+        margin-top: -10%;
+    }
+    .info{
+        width: 42vw;
+        height: 42vh;
+        margin-top: 15%;
+        margin-left: -29%;
+        background-color:rgb(189, 185, 173)
+    }
+    .info>h4{
+        font-size: 1.8em;
+    }
+    .info > p{
+        font-size: 1.5em;
+    }
+
+    .phone img{
+        margin-top: 22%;
+        margin-left: 2%;
+    }
+
+    .phone-info{
+        width:100%;
+        height: 35vh;
+        margin-top: -1%;
+        margin-left: 42%;
+        background-color:rgb(241, 169, 144)
+    }
+    .phone-info>h4{
+        font-size: 1.8em;
+    }
+    .phone-info > p{
+        font-size: 1.5em;
+    }
+    .pc img{
+        width: 32vw;
+        height: 20vh;
+        margin-top: -90%;
+    }
+    #main__section_2{
+        display:flex;
+        width: 100%;
+        height: 55vh;
+        margin-top: -32%;
+    }
+    #google-search{
+        width: 33%;
+        height: 55vh;
+        margin-top:-.1%;
+        background-color:rgb(161, 177, 194) ;
+    }
+    #google-search p{
+        font-size: 1.5em;
+    }
+    #marketting{
+        width: 33%;
+        height: 55vh;
+        margin-top:.1%;
+    }
+    #marketting p{
+        font-size: 1.5em;
+    }
+    #happy-customers{
+        width: 33%;
+        height: 55vh;
+        margin-top:.3%;
+    }
+    #happy-customers p{
+        font-size: 1.5em;
+    }
+    .smiley{
+        width: 2vw;
+        height: 4vh;
+        margin-top: 3%;
+        margin-left: 45%;
+    }
+    .footer__start{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30em;
+        height: 15vh;
+        font-size: 3em;
+        background-color:rgb(105, 145, 171);
+    }
+    .footer__start ion-icon{
+        margin-top: 8%;
+
+    }
+    .footer__end p{
+        width: 100%;
+        height: 2vh;
+        padding-top: 20px;
+        background-color: rgb(85, 72, 89);
+        font-size: 1.5em;
+    }
+
+    }
+
+
+
+    /* =====================
+    
+    @media (max-width:990px){
+    main{
+        height: min(43vh, 100vh);
+    }
+    .menu, .btn{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .head2{
+        padding: 3rem;
+        max-width: 75%;
+    }
+    .head2 h2{
+        font-size: min(3rem, 5vw);
+    }
+    .item{
+        max-width: 28%;
+    }
+}
+
+@media (max-width: 710px){
+    
+    div.box2{
+        display: block;
+    }
+    div.item{
+        max-width: 100%;
+    }
+    div.sec4{
+        flex-direction: column;
+    }
+    .pic3{
+        max-width: 100%;
+    }
+    div.box{
+        flex-direction: column;
+    }
+    div.card{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:430px){
+    .btn2{
+        display: none;
+    }
+    div.box3{
+        display: block;
+    }
+    div.box3 .items{
+        max-width: 100%;
+    }
+    main{
+    height: min(65%, 75%);
+    margin-bottom: 0;
+
+    }
+    div#main{
+        height: min(33vh, 400px);
+        padding: 1em;
+    }
+    #main h1{
+        padding: .5rem;
+    }
+    #main p{
+        padding: .5rem;
+    }
+    #main button{
+        padding: .5rem .7rem;
+    }
+    div#main{
+        padding: .3rem;
+    }
+}
+
+@media (max-width:306px) {
+    div.head2{
+        padding: 2rem;
+        max-width: 100%;
+    }
+}
+@media (max-width:154px){
+    div#main{
+        height: max-content;
+    }
+    div.head2{
+        padding: 0;
+        margin: 0 auto;
+    }
+    div.head2 p{
+        font-size: medium;
+    }
+    div.head2 button{
+        font-size: large;
+        padding: 5px;
+    }
+    div.head2 h2{
+        font-size: larger;
+    }
+}
+    
+    
+    */
